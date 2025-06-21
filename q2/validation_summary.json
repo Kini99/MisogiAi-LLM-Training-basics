@@ -1,0 +1,12 @@
+{
+  "total_questions": 15,
+  "kb_questions": 10,
+  "edge_questions": 5,
+  "ok_responses": 1,
+  "retry_responses": 14,
+  "out_of_domain": 5,
+  "answer_differs": 9,
+  "matches_kb": 1,
+  "average_similarity_kb": 0.212,
+  "hallucination_rate": 93.33
+}

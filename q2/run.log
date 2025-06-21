@@ -1,0 +1,142 @@
+2025-06-21 10:17:15,138 - INFO - Starting hallucination detection system
+2025-06-21 10:17:15,140 - INFO - Loaded 15 questions (10 KB + 5 edge cases)
+2025-06-21 10:17:15,141 - INFO - Setting up language model...
+2025-06-21 10:17:20,704 - INFO - Question 1/15: What is the capital of France?
+2025-06-21 10:17:22,272 - INFO - Response: The capital of France...
+2025-06-21 10:17:22,273 - INFO - --------------------------------------------------
+2025-06-21 10:17:22,273 - INFO - Question 2/15: What is the chemical symbol for gold?
+2025-06-21 10:17:23,826 - INFO - Response: It's not as easy as that.
+2025-06-21 10:17:23,827 - INFO - --------------------------------------------------
+2025-06-21 10:17:23,827 - INFO - Question 3/15: Who wrote Romeo and Juliet?
+2025-06-21 10:17:24,696 - INFO - Response: The bible.
+2025-06-21 10:17:24,696 - INFO - --------------------------------------------------
+2025-06-21 10:17:24,696 - INFO - Question 4/15: What is the largest planet in our solar system?
+2025-06-21 10:17:25,503 - INFO - Response: The sun.
+2025-06-21 10:17:25,504 - INFO - --------------------------------------------------
+2025-06-21 10:17:25,504 - INFO - Question 5/15: In which year did World War II end?
+2025-06-21 10:17:28,053 - INFO - Response: I wanna know because that's the same year that I started watching anime.
+2025-06-21 10:17:28,054 - INFO - --------------------------------------------------
+2025-06-21 10:17:28,054 - INFO - Question 6/15: What is the main component of the sun?
+2025-06-21 10:17:30,303 - INFO - Response: I think it's the same way a lot of things are.
+2025-06-21 10:17:30,304 - INFO - --------------------------------------------------
+2025-06-21 10:17:30,304 - INFO - Question 7/15: What is the square root of 144?
+2025-06-21 10:17:31,496 - INFO - Response: A square root of 144.
+2025-06-21 10:17:31,497 - INFO - --------------------------------------------------
+2025-06-21 10:17:31,497 - INFO - Question 8/15: What is the largest ocean on Earth?
+2025-06-21 10:17:32,323 - INFO - Response: The Pacific Ocean
+2025-06-21 10:17:32,323 - INFO - --------------------------------------------------
+2025-06-21 10:17:32,324 - INFO - Question 9/15: Who painted the Mona Lisa?
+2025-06-21 10:17:33,942 - INFO - Response: Probably the artist was not given a choice.
+2025-06-21 10:17:33,943 - INFO - --------------------------------------------------
+2025-06-21 10:17:33,943 - INFO - Question 10/15: What is the boiling point of water in Celsius?
+2025-06-21 10:17:35,642 - INFO - Response: 1.21 joules per second.
+2025-06-21 10:17:35,642 - INFO - --------------------------------------------------
+2025-06-21 10:17:35,643 - INFO - Question 11/15: What is the capital of Atlantis?
+2025-06-21 10:17:36,310 - INFO - Response: Taurus
+2025-06-21 10:17:36,310 - INFO - --------------------------------------------------
+2025-06-21 10:17:36,311 - INFO - Question 12/15: How many moons does planet X-47 have?
+2025-06-21 10:17:36,984 - INFO - Response: None.
+2025-06-21 10:17:36,984 - INFO - --------------------------------------------------
+2025-06-21 10:17:36,985 - INFO - Question 13/15: What is the favorite color of unicorns?
+2025-06-21 10:17:37,630 - INFO - Response: purple.
+2025-06-21 10:17:37,630 - INFO - --------------------------------------------------
+2025-06-21 10:17:37,630 - INFO - Question 14/15: What year will humans first contact aliens?
+2025-06-21 10:17:39,185 - INFO - Response: The year after our planet was formed.
+2025-06-21 10:17:39,186 - INFO - --------------------------------------------------
+2025-06-21 10:17:39,186 - INFO - Question 15/15: What is the molecular formula of dragon breath?
+2025-06-21 10:17:40,421 - INFO - Response: it's all about the color
+2025-06-21 10:17:40,422 - INFO - --------------------------------------------------
+2025-06-21 10:17:40,424 - INFO - All responses saved to q2/model_responses.json
+2025-06-21 10:17:44,637 - INFO - Starting validation process
+2025-06-21 10:17:44,639 - INFO - Validating question 1: What is the capital of France?
+2025-06-21 10:17:44,640 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,641 - INFO - KB Answer: Paris
+2025-06-21 10:17:44,643 - INFO - Model Response: The capital of France...
+2025-06-21 10:17:44,643 - INFO - Similarity: 0.154
+2025-06-21 10:17:44,643 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,644 - INFO - Validating question 2: What is the chemical symbol for gold?
+2025-06-21 10:17:44,644 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,645 - INFO - KB Answer: Au
+2025-06-21 10:17:44,645 - INFO - Model Response: It's not as easy as that.
+2025-06-21 10:17:44,645 - INFO - Similarity: 0.077
+2025-06-21 10:17:44,645 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,646 - INFO - Validating question 3: Who wrote Romeo and Juliet?
+2025-06-21 10:17:44,646 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,648 - INFO - KB Answer: William Shakespeare
+2025-06-21 10:17:44,648 - INFO - Model Response: The bible.
+2025-06-21 10:17:44,649 - INFO - Similarity: 0.214
+2025-06-21 10:17:44,649 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,650 - INFO - Validating question 4: What is the largest planet in our solar system?
+2025-06-21 10:17:44,651 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,651 - INFO - KB Answer: Jupiter
+2025-06-21 10:17:44,652 - INFO - Model Response: The sun.
+2025-06-21 10:17:44,652 - INFO - Similarity: 0.286
+2025-06-21 10:17:44,652 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,653 - INFO - Validating question 5: In which year did World War II end?
+2025-06-21 10:17:44,655 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,656 - INFO - KB Answer: 1945
+2025-06-21 10:17:44,656 - INFO - Model Response: I wanna know because that's the same year that I started watching anime.
+2025-06-21 10:17:44,657 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,657 - INFO - Validating question 6: What is the main component of the sun?
+2025-06-21 10:17:44,658 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,659 - INFO - KB Answer: Hydrogen
+2025-06-21 10:17:44,659 - INFO - Model Response: I think it's the same way a lot of things are.
+2025-06-21 10:17:44,660 - INFO - Similarity: 0.075
+2025-06-21 10:17:44,660 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,661 - INFO - Validating question 7: What is the square root of 144?
+2025-06-21 10:17:44,662 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,662 - INFO - KB Answer: 12
+2025-06-21 10:17:44,662 - INFO - Model Response: A square root of 144.
+2025-06-21 10:17:44,662 - INFO - Similarity: 0.091
+2025-06-21 10:17:44,663 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,663 - INFO - Validating question 8: What is the largest ocean on Earth?
+2025-06-21 10:17:44,664 - INFO - Result: OK: answer matches KB
+2025-06-21 10:17:44,664 - INFO - KB Answer: Pacific Ocean
+2025-06-21 10:17:44,666 - INFO - Model Response: The Pacific Ocean
+2025-06-21 10:17:44,666 - INFO - Similarity: 0.867
+2025-06-21 10:17:44,666 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,666 - INFO - Validating question 9: Who painted the Mona Lisa?
+2025-06-21 10:17:44,667 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,667 - INFO - KB Answer: Leonardo da Vinci
+2025-06-21 10:17:44,668 - INFO - Model Response: Probably the artist was not given a choice.
+2025-06-21 10:17:44,668 - INFO - Similarity: 0.271
+2025-06-21 10:17:44,668 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,669 - INFO - Validating question 10: What is the boiling point of water in Celsius?
+2025-06-21 10:17:44,669 - INFO - Result: RETRY: answer differs from KB
+2025-06-21 10:17:44,669 - INFO - KB Answer: 100
+2025-06-21 10:17:44,670 - INFO - Model Response: 1.21 joules per second.
+2025-06-21 10:17:44,672 - INFO - Similarity: 0.083
+2025-06-21 10:17:44,673 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,673 - INFO - Validating question 11: What is the capital of Atlantis?
+2025-06-21 10:17:44,674 - INFO - Result: RETRY: out-of-domain
+2025-06-21 10:17:44,675 - INFO - Model Response: Taurus
+2025-06-21 10:17:44,675 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,676 - INFO - Validating question 12: How many moons does planet X-47 have?
+2025-06-21 10:17:44,677 - INFO - Result: RETRY: out-of-domain
+2025-06-21 10:17:44,677 - INFO - Model Response: None.
+2025-06-21 10:17:44,678 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,679 - INFO - Validating question 13: What is the favorite color of unicorns?
+2025-06-21 10:17:44,679 - INFO - Result: RETRY: out-of-domain
+2025-06-21 10:17:44,680 - INFO - Model Response: purple.
+2025-06-21 10:17:44,680 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,681 - INFO - Validating question 14: What year will humans first contact aliens?
+2025-06-21 10:17:44,681 - INFO - Result: RETRY: out-of-domain
+2025-06-21 10:17:44,682 - INFO - Model Response: The year after our planet was formed.
+2025-06-21 10:17:44,682 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,683 - INFO - Validating question 15: What is the molecular formula of dragon breath?
+2025-06-21 10:17:44,684 - INFO - Result: RETRY: out-of-domain
+2025-06-21 10:17:44,684 - INFO - Model Response: it's all about the color
+2025-06-21 10:17:44,686 - INFO - --------------------------------------------------
+2025-06-21 10:17:44,689 - INFO - Validation results saved to q2/validation_results.json
+2025-06-21 10:17:44,690 - INFO - === VALIDATION SUMMARY ===
+2025-06-21 10:17:44,691 - INFO - Total questions: 15
+2025-06-21 10:17:44,692 - INFO - KB questions: 10
+2025-06-21 10:17:44,693 - INFO - Edge questions: 5
+2025-06-21 10:17:44,693 - INFO - OK responses: 1
+2025-06-21 10:17:44,695 - INFO - RETRY responses: 14
+2025-06-21 10:17:44,695 - INFO - Out of domain: 5
+2025-06-21 10:17:44,695 - INFO - Answer differs: 9
+2025-06-21 10:17:44,696 - INFO - Matches KB: 1
+2025-06-21 10:17:44,696 - INFO - Average similarity (KB): 0.212
+2025-06-21 10:17:44,697 - INFO - Hallucination rate: 93.33%
+2025-06-21 10:17:44,699 - INFO - Summary saved to q2/validation_summary.json

@@ -1,0 +1,44 @@
+{
+  "knowledge_base": [
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au"
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter"
+    },
+    {
+      "question": "In which year did World War II end?",
+      "answer": "1945"
+    },
+    {
+      "question": "What is the main component of the sun?",
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "answer": "12"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the boiling point of water in Celsius?",
+      "answer": "100"
+    }
+  ]
+} 

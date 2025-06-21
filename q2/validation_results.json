@@ -1,0 +1,167 @@
+[
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "Paris",
+    "model_response": "The capital of France...",
+    "similarity": 0.15384615384615385,
+    "question_id": 1,
+    "question": "What is the capital of France?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "Au",
+    "model_response": "It's not as easy as that.",
+    "similarity": 0.07692307692307693,
+    "question_id": 2,
+    "question": "What is the chemical symbol for gold?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "William Shakespeare",
+    "model_response": "The bible.",
+    "similarity": 0.21428571428571427,
+    "question_id": 3,
+    "question": "Who wrote Romeo and Juliet?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "Jupiter",
+    "model_response": "The sun.",
+    "similarity": 0.2857142857142857,
+    "question_id": 4,
+    "question": "What is the largest planet in our solar system?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "1945",
+    "model_response": "I wanna know because that's the same year that I started watching anime.",
+    "similarity": 0.0,
+    "question_id": 5,
+    "question": "In which year did World War II end?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "Hydrogen",
+    "model_response": "I think it's the same way a lot of things are.",
+    "similarity": 0.07547169811320754,
+    "question_id": 6,
+    "question": "What is the main component of the sun?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "12",
+    "model_response": "A square root of 144.",
+    "similarity": 0.09090909090909091,
+    "question_id": 7,
+    "question": "What is the square root of 144?",
+    "is_kb_question": true
+  },
+  {
+    "status": "OK",
+    "reason": "matches-kb",
+    "message": "OK: answer matches KB",
+    "kb_answer": "Pacific Ocean",
+    "model_response": "The Pacific Ocean",
+    "similarity": 0.8666666666666667,
+    "question_id": 8,
+    "question": "What is the largest ocean on Earth?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "Leonardo da Vinci",
+    "model_response": "Probably the artist was not given a choice.",
+    "similarity": 0.2711864406779661,
+    "question_id": 9,
+    "question": "Who painted the Mona Lisa?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "answer-differs",
+    "message": "RETRY: answer differs from KB",
+    "kb_answer": "100",
+    "model_response": "1.21 joules per second.",
+    "similarity": 0.08333333333333333,
+    "question_id": 10,
+    "question": "What is the boiling point of water in Celsius?",
+    "is_kb_question": true
+  },
+  {
+    "status": "RETRY",
+    "reason": "out-of-domain",
+    "message": "RETRY: out-of-domain",
+    "kb_answer": null,
+    "model_response": "Taurus",
+    "similarity": null,
+    "question_id": 11,
+    "question": "What is the capital of Atlantis?",
+    "is_kb_question": false
+  },
+  {
+    "status": "RETRY",
+    "reason": "out-of-domain",
+    "message": "RETRY: out-of-domain",
+    "kb_answer": null,
+    "model_response": "None.",
+    "similarity": null,
+    "question_id": 12,
+    "question": "How many moons does planet X-47 have?",
+    "is_kb_question": false
+  },
+  {
+    "status": "RETRY",
+    "reason": "out-of-domain",
+    "message": "RETRY: out-of-domain",
+    "kb_answer": null,
+    "model_response": "purple.",
+    "similarity": null,
+    "question_id": 13,
+    "question": "What is the favorite color of unicorns?",
+    "is_kb_question": false
+  },
+  {
+    "status": "RETRY",
+    "reason": "out-of-domain",
+    "message": "RETRY: out-of-domain",
+    "kb_answer": null,
+    "model_response": "The year after our planet was formed.",
+    "similarity": null,
+    "question_id": 14,
+    "question": "What year will humans first contact aliens?",
+    "is_kb_question": false
+  },
+  {
+    "status": "RETRY",
+    "reason": "out-of-domain",
+    "message": "RETRY: out-of-domain",
+    "kb_answer": null,
+    "model_response": "it's all about the color",
+    "similarity": null,
+    "question_id": 15,
+    "question": "What is the molecular formula of dragon breath?",
+    "is_kb_question": false
+  }
+]
