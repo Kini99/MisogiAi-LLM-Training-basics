@@ -1,0 +1,44 @@
+[
+  {
+    "masked_index": 1,
+    "masked_token": "cat",
+    "top_predictions": [
+      {
+        "sequence": "the dog sat on the mat because it was tired.",
+        "token_str": "dog",
+        "score": 0.0998382493853569
+      },
+      {
+        "sequence": "the cat sat on the mat because it was tired.",
+        "token_str": "cat",
+        "score": 0.07279101014137268
+      },
+      {
+        "sequence": "the horse sat on the mat because it was tired.",
+        "token_str": "horse",
+        "score": 0.06080121174454689
+      }
+    ]
+  },
+  {
+    "masked_index": 10,
+    "masked_token": ".",
+    "top_predictions": [
+      {
+        "sequence": "the cat sat on the mat because it was tired.",
+        "token_str": ".",
+        "score": 0.9820544719696045
+      },
+      {
+        "sequence": "the cat sat on the mat because it was tired ;",
+        "token_str": ";",
+        "score": 0.01730293408036232
+      },
+      {
+        "sequence": "the cat sat on the mat because it was tired!",
+        "token_str": "!",
+        "score": 0.0004095285839866847
+      }
+    ]
+  }
+]
